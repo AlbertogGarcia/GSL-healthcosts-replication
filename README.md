@@ -26,12 +26,10 @@ This analysis was performed in R. The scripts for reproducing the paper analysis
 
 The software code, data, and figures contained within this repository are made available under the [Creative Commons CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/) license.
 
-**Please note:** To ensure reproducibility and in order to manage package dependencies, we use the `renv` package linked to [R Studio Package Manager](https://packagemanager.rstudio.com/client/#/). When you first clone this repo onto your machine, use `renv` to ensure you have all correct package versions installed in the project. Please see the `renv` page for more information: https://rstudio.github.io/renv/articles/renv.html.
-
 ## Code scripts
 This section describes the code scripts developed to conduct this study. All code related to this study is available in the GitHub repository. The headings below represent folder names and paths.
 
-### code/
+### scripts_R1/
 `02-dataprep_mortality.R`
 Prepares tract-by-age incidence data for mortality in the study region
 
