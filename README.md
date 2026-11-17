@@ -31,61 +31,61 @@ This section describes the code scripts developed to conduct this study. All cod
 
 ### scripts_R1/
 `02-dataprep_mortality.R`
-Prepares tract-by-age incidence data for mortality in the study region
+prepares tract-by-age incidence data for mortality in the study region
 
 `03-dataprep_mortality_race.R`
-Prepares tract-by-age-by-race incidence data for mortality in the study region
+prepares tract-by-age-by-race incidence data for mortality in the study region
  
 `04-dataprep_mortality_projections.R`
-Prepares mortality incidence data projected through 2060 in the study region
+prepares mortality incidence data projected through 2060 in the study region
 
 `05-dataprep_morbidity.R`
-Prepares tract-by-age-by-endpoint incidence data for morbidity endpoints excluding school absences in the study region
+prepares tract-by-age-by-endpoint incidence data for morbidity endpoints excluding school absences in the study region
 
 `06-dataprep_morbidity_race.R`
-Prepares tract-by-age-by-race-by-endpoint incidence data for morbidity endpoints excluding school absences in the study region
+prepares tract-by-age-by-race-by-endpoint incidence data for morbidity endpoints excluding school absences in the study region
  
 `07-dataprep_morbidity_projections.R`
-Prepares morbidity incidence data excluding school absences through 2060 in the study region
+prepares morbidity incidence data excluding school absences through 2060 in the study region
 
 `08-dataprep_education.R`
-Prepares tract-by-age-by-race and tract-by-age incidence data for school absences in the study region
+prepares tract-by-age-by-race and tract-by-age incidence data for school absences in the study region
 
 `09-dataprep_education_projections.R`
-Prepares school absence incidence data through 2060 in the study region
+prepares school absence incidence data through 2060 in the study region
 
 `11-VSL.R`
-Converts EPA VSL to 2024 dollars
+converts EPA VSL to 2024 dollars
 
 `12-age_VSL.R`
-Converts Aldi and Viscusi cohort-adjusted VSL to 2024 dollars
+converts Aldi and Viscusi cohort-adjusted VSL to 2024 dollars
 
 `13-cost_morbidity.R`
-Converts mobidity cost of illness valuations to 2024 dollars
+converts mobidity cost of illness valuations to 2024 dollars
 
 `14-costs_health_projected.R`
-Projects VSL and morbidity COIs through 2060
+projects VSL and morbidity COIs through 2060
 
 `21-health_mortality.R`
-Calculates annual mortality associated with dust events and the associated costs
+calculates annual mortality associated with dust events and the associated costs
 
 `22-health_mortality_projections.R`
-Projects mortality associated with dust events and the associated costs through 2060
+projects mortality associated with dust events and the associated costs through 2060
 
 `23-health_morbidity.R`
-Calculates annual morbidity, excluding school absences, associated with dust events and the associated costs
+calculates annual morbidity, excluding school absences, associated with dust events and the associated costs
 
 `24-health_morbidity_projections.R`
-Projects morbidity, excluding school absences, associated with dust events and the associated costs through 2060
+projects morbidity, excluding school absences, associated with dust events and the associated costs through 2060
 
 `25-health_schoolloss.R`
-Calculates annual school absence associated with dust events and the associated costs
+calculates annual school absence associated with dust events and the associated costs
 
 `26-health_schoolloss_projections.R`
-Projects school absences associated with dust events and the associated costs through 2060
+projects school absences associated with dust events and the associated costs through 2060
 
 `97-total_cost_projections.R`
-Aggregates mortality, morbidity, and school absence costs, both annually and projected through 2060, for damage comparison. Most figures are generated in this script.
+aggregates mortality, morbidity, and school absence costs, both annually and projected through 2060, for damage comparison. Most figures are generated in this script.
 
 `98-map_figures.R`
-Script to create map figures in the manuscript
+creates map figures in the manuscript
